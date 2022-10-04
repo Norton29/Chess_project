@@ -1,8 +1,17 @@
 package application;
 
-public class Program {
+import boardGame.Position;
 
-    public static void main(String[] args) {
-        
+import java.io.Serializable;
+import java.util.HashMap;
+
+public class Program implements Serializable {
+
+    public static void main(String[] args)  {
+
+        Position position= new Position(3,5);
+        System.out.println(position);
+
+
     }
 }
